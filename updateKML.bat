@@ -1,0 +1,3 @@
+SET KMLUPDATER_DIR="C:\APPL\KMLUPDATER" 
+perl "%KMLUPDATER_DIR%\createKML.pl" %1 > %1.kml 
+pause
