@@ -10,5 +10,5 @@ perl "%KMLUPDATER_DIR%\createKML.pl" %1 > %1.kml
 pause
 
 where you need to set the folder/directory where the createKML.pl script is located on the first line.  
-Drag-dropping a folder to the updateKML.bat file will then run the script and create a file
+Drag-dropping a folder to the updateKML.bat file will then run the createKML.pl perl script and create a file
 parallell to the folder with same name as folder but extension kml. 
